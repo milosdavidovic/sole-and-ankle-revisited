@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components/macro';
+import { createGlobalStyle } from "styled-components/macro";
 
 const GlobalStyles = createGlobalStyle`
 /* http://meyerweb.com/eric/tools/css/reset/
@@ -64,6 +64,40 @@ table {
     float above the app.
   */
   isolation: isolate;
+
+}
+
+:root {
+  /* Responsive brake points */
+  --mobile-size: 37.5rem;
+  --tablet-size: 59.375rem;
+  --laptop-size: 81.25rem;
+
+  --gray-100: 185deg 5% 95%;
+  --gray-300: 190deg 5% 80%;
+  --gray-500: 196deg 4% 60%;
+  --gray-700: 220deg 5% 40%;
+  --gray-900: 220deg 3% 20%;
+
+  --color-white: hsl(0deg 0% 100%);
+  
+  --color-gray-100: hsl(var(--gray-100));
+  --color-gray-300: hsl(var(--gray-300));
+  --color-gray-500: hsl(var(--gray-500));
+  --color-gray-700: hsl(var(--gray-700));
+  --color-gray-900: hsl(var(--gray-900));
+  --color-gray-100-transparent: hsla(var(--gray-100) / 0.9);
+  --color-gray-300-transparent: hsla(var(--gray-300) / 0.9);
+  --color-gray-500-transparent: hsla(var(--gray-500) / 0.9);
+  --color-gray-700-transparent: hsla(var(--gray-700) / 0.9);
+  --color-gray-900-transparent: hsla(var(--gray-900) / 0.9);
+
+  --color-primary: hsl(340deg 65% 47%);
+  --color-secondary: hsl(240deg 60% 63%);
+
+  --font-weight-normal: 500;
+  --font-weight-medium: 600;
+  --font-weight-bold: 800;
 }
 
 html {
