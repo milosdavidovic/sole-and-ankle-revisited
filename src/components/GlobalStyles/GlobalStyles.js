@@ -86,11 +86,11 @@ table {
   --color-gray-500: hsl(var(--gray-500));
   --color-gray-700: hsl(var(--gray-700));
   --color-gray-900: hsl(var(--gray-900));
-  --color-gray-100-transparent: hsla(var(--gray-100) / 0.9);
-  --color-gray-300-transparent: hsla(var(--gray-300) / 0.9);
-  --color-gray-500-transparent: hsla(var(--gray-500) / 0.9);
-  --color-gray-700-transparent: hsla(var(--gray-700) / 0.9);
-  --color-gray-900-transparent: hsla(var(--gray-900) / 0.9);
+  --color-gray-100-transparent: hsla(var(--gray-100) / 0.8);
+  --color-gray-300-transparent: hsla(var(--gray-300) / 0.8);
+  --color-gray-500-transparent: hsla(var(--gray-500) / 0.8);
+  --color-gray-700-transparent: hsla(var(--gray-700) / 0.8);
+  --color-gray-900-transparent: hsla(var(--gray-900) / 0.8);
 
   --color-primary: hsl(340deg 65% 47%);
   --color-secondary: hsl(240deg 60% 63%);

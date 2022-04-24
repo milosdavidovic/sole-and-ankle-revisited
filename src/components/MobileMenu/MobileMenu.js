@@ -10,15 +10,12 @@ import Icon from "../Icon";
 import VisuallyHidden from "../VisuallyHidden";
 
 const MobileMenu = ({ isOpen, onDismiss }) => {
-  if (!isOpen) {
-    return null;
-  }
-
   return (
     <StyledDialogOverlay isOpen={isOpen} onDismiss={onDismiss}>
       <StyledDialogContent aria-label="menu">
         <Wrapper>
           <Button onClick={onDismiss}>
+            <VisuallyHidden>Close</VisuallyHidden>
             <Icon id="close"></Icon>
           </Button>
           <Nav>
